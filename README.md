@@ -9,6 +9,11 @@ Googleドライブにある指定した画像ファイルを Google Apps Script 
 ![image](https://github.com/TORO-Server/DailyPicture/assets/77374813/a5fee67c-5bdb-4572-8ce0-31a8f0fb5b15)
 ![image](https://github.com/TORO-Server/DailyPicture/assets/77374813/239b9e1b-3531-4af3-97ed-c7382acc4f0c)
 
+一日一回 "run()"関数が実行されるようにトリガーを設定します。
+
+![image](https://github.com/TORO-Server/DailyPicture/assets/77374813/651cfbbf-4814-4bfb-a016-32051a887318)
+
+
 ## スプレッドシートの設定
 
 画像のURLは必ず2つ以上設定してください
