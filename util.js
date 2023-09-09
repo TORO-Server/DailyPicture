@@ -2,10 +2,10 @@
 function upload(folderId, fileBlob, filename) {
 
     //指定のフォルダを取得する
-    var folder = DriveApp.getFolderById(folderId);
+    const folder = DriveApp.getFolderById(folderId);
 
     //ファイル名を指定してファイルを取得してみる
-    var files = folder.getFilesByName(filename);
+    const files = folder.getFilesByName(filename);
 
     if (files.hasNext()) {
         //Driveのファイルを上書きアップロード
