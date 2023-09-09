@@ -7,6 +7,6 @@ const Name = "ファイル名";
 const SpreadsheetURL = "スプレッドシートURL";
 
 // 送信する文字を設定するシート名
-const SendListSheet = "PictureList";
+const PictureListSheet = "PictureList";
 // 記録用のシート名
 const SaveDataSheet = "SaveData";
