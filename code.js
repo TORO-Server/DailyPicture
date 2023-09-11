@@ -12,11 +12,9 @@ function run() {
     let saveData = toCalculationList(saveDataList);
 
     // 今回送信する画像リストを生成する
-    const FinalPictureList = pictureList.filter(value =>
+    let FinalPictureList = pictureList.filter(value =>
         !saveData.includes(value)
-    ).concat(saveData.filter(value =>
-        !pictureList.includes(value)
-    ));
+    );
 
     // もし 今回送信する画像リスト"FinalPictureList" に何も入っていなかったら
     if (FinalPictureList.length == 0) {
